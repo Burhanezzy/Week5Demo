@@ -1,6 +1,6 @@
 <%-- 
     Document   : average
-    Created on : 25-Sep-2019, 2:37:16 PM
+    Created on : 14-Sep-2020, 2:06:58 PM
     Author     : awarsyle
 --%>
 
@@ -13,14 +13,11 @@
     </head>
     <body>
         <h2>Average Numbers</h2>
-        <div>
-            <form action="average" method="get">
-                Enter a number: <input type="number" name="number"><br>
-                <input type="submit" value="Submit">
-            </form>
-        </div>
-        <div>
-            Average: ${average}
-        </div>
+        <form action="average" method="get">
+            Enter a number: <input type="number" name="number">
+            <input type="submit" value="Submit">
+        </form>
+        
+        Average: ${average}
     </body>
 </html>
